@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML layout for the assessment page -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Select All That Apply"
+        android:textSize="20sp" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Background Image -->
+        <ImageView
+            android:id="@+id/feelings_wheel"
+            android:layout_width="match_parent"
+            android:layout_height="406dp"
+            android:src="@drawable/img" />
+
+        <!-- Button on top -->
+        <Button
+            android:id="@+id/whiteregion"
+            android:layout_width="197dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="45dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/redregion"
+            android:layout_width="130dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="150dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="@android:color/black" />
+        <Button
+            android:id="@+id/yellowregion"
+            android:layout_width="130dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="120dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/blueregion"
+            android:layout_width="109dp"
+            android:layout_height="199dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="150dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="@android:color/black" />
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Select color assosciated with feelings "
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@android:color/holo_orange_light"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Submit"
+            android:backgroundTint="@android:color/holo_orange_light"/>
+    </LinearLayout>
+
+</LinearLayout>
+

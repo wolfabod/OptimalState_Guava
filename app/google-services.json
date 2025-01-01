@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "203139697919",
+    "firebase_url": "https://optimal-state-64d5c-default-rtdb.firebaseio.com",
+    "project_id": "optimal-state-64d5c",
+    "storage_bucket": "optimal-state-64d5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203139697919:android:c6391252a2bddf3fe250ca",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb4Fuycnese_F989LNunmWMpIdB0vVknw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203139697919:android:3d21201002e25ac7e250ca",
+        "android_client_info": {
+          "package_name": "com.example.optimalstate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb4Fuycnese_F989LNunmWMpIdB0vVknw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
