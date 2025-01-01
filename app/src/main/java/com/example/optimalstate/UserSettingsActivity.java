@@ -151,7 +151,7 @@ public class UserSettingsActivity extends AppCompatActivity {
 
     // Method to copy the link to clipboard
     private void shareWith() {
-        String shareableLink = "https://github.com/wolfabod/Guava_OptimalState";  // Replace with actual link
+        String shareableLink = "https://github.com/wolfabod/OptimalState_Guava";  // Replace with actual link
         android.content.ClipboardManager clipboard = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
         android.content.ClipData clip = android.content.ClipData.newPlainText("Shared Link", shareableLink);
         clipboard.setPrimaryClip(clip);
