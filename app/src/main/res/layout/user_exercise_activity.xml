@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="Logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/exercise_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <!-- Breathing Exercise Dropdown -->
+    <Button
+        android:id="@+id/breathing_exercise_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breathing Exercise"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_marginTop="16dp" />
+
+    <!-- Other Exercises Dropdown -->
+    <Button
+        android:id="@+id/other_exercises_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other Exercises"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_marginTop="16dp" />
+
+    <!-- Recommended Foods Dropdown -->
+    <Button
+        android:id="@+id/recommended_foods_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended Foods"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_marginTop="16dp" />
+
+    <!-- Watch Video Dropdown -->
+    <Button
+        android:id="@+id/watch_video_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch Video"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
